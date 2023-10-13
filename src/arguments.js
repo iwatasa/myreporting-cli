@@ -223,6 +223,7 @@ function getOptions(options) {
     commandOptions.selfsignedcerts = options.selfsignedcerts;
 
     spinner.succeed('Fetched argument values');
+    console.log(commandOptions);
     return commandOptions;
 }
 
